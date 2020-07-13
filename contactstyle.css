@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#contactus{
+    padding-left: 25px;
+    border-left: 3px  solid #5f1782;
+    margin-left: 115px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+
+}
+
+.contacttext{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #5f1782;
+}
+
+.contacttext{
+    margin-top:100px;
+    margin-bottom: -55px;
+    padding-left: 35px;
+}
+.contacttext::before{
+    content: '';
+    background:#a517ba;
+    width: 100px;
+    height: 3px;
+    margin-left: 0px;
+    display: block;
+    transform: translateY(36px);
+}
+.contacttext::after{
+    content: '';
+    background:#a517ba;
+    width: 40px;
+    height: 9px;
+    margin-left: 25px;
+    
+    display: block;
+    transform: translateY(2px);
+}
+.touch{
+    font-size: 2.2rem;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 80px;
+    word-spacing: 2px;
+}
+.contact-form{
+    margin-top: 20px!important;
+}
+.contact-image{
+    margin-top: -180px;
+}
+#contactus .btn-primary{
+    margin-left: 180px!important;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: cursive;
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+}
+#contactus .btn-primary:hover{
+    color:black;
+    background: linear-gradient(to right, #a517ba,#5f1782);
+}

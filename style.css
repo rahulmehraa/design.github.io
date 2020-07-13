@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fondamento&family=Galada&display=swap');
+html{
+    scroll-behavior: smooth;
+} 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#nav-bar{
+    position: sticky;
+    top: 0%;
+    z-index: 10;
+}
+.navbar{
+    background-image:linear-gradient(to right, #a517ba,#5f1782) ;
+    padding: 0!important;
+
+
+}
+
+.navbar-nav li{
+    padding:0 10px;
+    
+}
+.navbar-nav li a{
+    color: #fff!important;
+    font-weight: 500;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    float: right;
+     text-align: left;
+}
+
+.fa-bars{
+    color: whitesmoke!important;
+    font-size: 20px;
+
+}
+#banner{
+   background:#a517ba;
+   color: #fff;
+   padding-top: 5%;
+   height: 80vh ;
+}
+.wave{
+    position: absolute;
+    width: 100%;
+    bottom: -170px;
+    left: 0;
+}
+.banner-text{
+    padding-left: 20px!important;
+}
+.promo-title{
+    padding-top:100px;
+}
+.promo-text{
+    padding-top: 20px;
+    font-size: 1.2rem;
+    font-style: italic;
+    
+}
+.tutorial-spot{
+    padding-left: 50px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-style: oblique;
+    font-family: sans-serif;
+}
+.fa-play-circle{
+    cursor: pointer;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.banner-image{
+    padding-left:170px;
+    padding-top: 40px;
+}
+#services-section{
+    
+    padding:130px 0;
+}
+.title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.growth-image{
+    width: 100px;
+    margin-top: 130px;
+}
+.growthimage{
+    padding-left: 70px;
+    width: 100px;
+    margin-top: 240px;
+
+}
+.first-service {
+    margin-top: 25px;
+    text-transform: uppercase;
+
+}
+.growth-imagee{
+    width: 100px;
+    margin-top: 155px;
+}
+
+.title::before{
+    content: '';
+    background:#a517ba;
+    width: 290px;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after{
+    content: '';
+    background:#a517ba;
+    width: 60px;
+    height: 9px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(9px);
+}
+#services-section .btn-primary{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: cursive;
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+}
+#services-section .btn-primary:hover{
+    color:black;
+    background: linear-gradient(to right, #a517ba,#5f1782);
+}
+.about-us::before{
+    content: '';
+    background: #a517ba;
+    width: 250px;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    transform: translateY(57px);
+}
+.about-us::after{
+    content: '';
+    background: #a517ba;
+    width: 70px;
+    height: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    transform: translateY(4px);
+}
+#about{
+    background: #f8f9fa;
+}
+#aboutus{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+}
+.about-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+    font-style: initial;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: capitalize;
+}
+#about .thingsdo{
+    font-style: italic;
+}
+#about .thingsdo li{
+    margin:20px;
+}
+#about .thingsdo{
+    margin-left: 20px;
+
+}
+#clients-say{
+    margin: 100px 0;
+}
+.client-title{
+    font-size: 2.0rem;
+    font-weight: 600;
+    font-family: 'Fondamento', cursive;
+}
+.client-title::before{
+    content: '';
+    background: #a517ba;
+    width: 220px;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    transform: translateY(50px);
+}
+.client-title::after{
+    content: '';
+    background:#a517ba;
+    width:70px;
+    height: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    transform: translateY(7px);
+}
+.testimonials{
+    border-left: 4px  solid #5f1782;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.testimonials img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-details{
+    display: inline-block;
+    font-size: 1.2rem;
+}
+.clients-views{
+    font-family: cursive;
+    font-size: 1.2rem;
+}
+.find-us::before{
+    content: '';
+    background: #5f1782;
+    width: 250px;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(55px);
+}
+#social-media{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+.find-us{
+    font-size: 2.0rem;
+    font-weight: 600;
+    font-family: 'Fondamento', cursive;
+}
+.find-us::before{
+    content: '';
+    background: #5f1782;
+    width: 450px;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(53px);
+}
+.find-us::after{
+    content: '';
+    background: #5f1782;
+    width: 130px;
+    height: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(10px);
+}
+.social-icons{
+    margin: 80px;
+   
+}
+.social-icons img{
+    padding-left: 35px;
+    transition: 0.5s;
+   
+}
+.social-icons a:hover img{
+    transform: translateY(-20px);
+
+}
+.background{
+    background:#a517ba;
+}
+.footer-text{
+    color: #fff;
+    font-style: italic;
+
+}
+.footer-contact{
+    color: #fff;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+.footer-contactus{
+    color: #fff;
+    font-style: italic;
+    font-size: 1.4rem;
+}
+.footer-box .fa{
+    margin-right: 5px;
+    font-size: 20px;
+    height: 35px;
+    width: 38px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background:#5f1782 ;
+
+}
+.footer-box .form-control{
+    box-shadow: none!important;
+    border: none!important;
+    border-radius: 2px;
+    margin: 25px 30px;
+    max-width: 250px;
+}
+.footer-box .btn-primary{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin:0 80px;
+    box-shadow: none!important;
+    border:none;
+    border-radius:5px;
+     background:#5f1782!important;
+}
+hr{
+    background-color: #fff;
+}
+.copyright{
+    color: #fff;
+    margin: 3px ;
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+#myBtn{
+    display:none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    color: whitesmoke;
+    background: #5f1782;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+#myBtn:hover{
+    background:#606060;
+}
